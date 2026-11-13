@@ -36,11 +36,13 @@ Aplicación de chat en tiempo real desarrollada con **Next.js** (frontend), **Fa
 ## Requisitos previos
 
 - [Docker](https://www.docker.com/) y Docker Compose instalados, **o**
-- Python 3.10 o superior (probado con 3.13) y Node.js 18 o superior instalados localmente
+- Python 3.10 o superior (probado con 3.13) y Node.js 18.17 o superior instalados localmente
 
 ---
 
 ## Opción A — Con Docker
+
+> Asegúrate de que los puertos 3000, 8000 y 5432 estén libres. Si tienes PostgreSQL instalado localmente, detén ese servicio o libera el puerto 5432 antes de iniciar.
 
 ```bash
 cd acema-chat
